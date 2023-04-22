@@ -10,10 +10,14 @@ Created on Thu Oct 13 07:45:33 2022
 import numpy as np
 import pickle
 import streamlit as st
+import requests
+url="https://github.com/komal-khawane/komalk/blob/main/trained_model.sav"
+loaded_model = requests.get(url).content
 
 
 
-loaded_model = pickle.load(open('komal-khawane/komalk/trained_model.sav','rb'))
+
+
 
 
 '''loaded_model = pickle.load(open('trained_model.sav', 'rb'))'''
