@@ -13,7 +13,7 @@ import streamlit as st
 import requests
 url="https://github.com/komal-khawane/komalk/blob/main/trained_model.sav"
 loaded_model = requests.get(url).content
-loaded_model 
+
 
 
 
