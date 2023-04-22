@@ -12,7 +12,7 @@ import numpy as np
 import pickle
 
 # loading the saved model
-loaded_model = pickle.load(open('webapp.py', 'rb', 'rb'))
+loaded_model = pickle.load(open('webapp.py','rb'))
 
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
