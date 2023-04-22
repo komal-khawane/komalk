@@ -13,7 +13,7 @@ import streamlit as st
 
 
 
-loaded_model = pickle.load(open('https://github.com/komal-khawane/komalk/blob/main/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 
 
